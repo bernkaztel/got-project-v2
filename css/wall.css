@@ -1,0 +1,191 @@
+.body-l{
+    background-image: url("../assets/images/Lannister_Fealty_Background.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.body-s{
+    background-image: url("../assets/images/Stark_Fealty_Background.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+}
+.body-t{
+    background-image: url("../assets/images/Targaryen_Fealty_Background.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+}
+.body-g{
+    background-image: url("../assets/images/Greyjoy_Fealty_Background.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+}
+.body-l{
+    background-image: url("../assets/images/Lannister_Fealty_Background.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+} 
+.body-m{
+    background-image: url("../assets/images/Martell_Fealty_Background.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+}
+.body-a{
+    background-image: url("../assets/images/Arryn_Fealty_Background.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+}
+.body-b{
+    background-image: url("../assets/images/Baratheon_Fealty_Background.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+}
+.body-tu{
+    background-image: url("../assets/images/Tully_Fealty_Background.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+}
+.body-ty{
+    background-image: url("../assets/images/Tully_Fealty_Background.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: contain;
+}
+
+
+
+
+
+
+
+h5{
+    color: #252525;
+}
+
+.local-nav-Lan{
+    background-color: #ffe44d;
+    color: red;
+    width: 100%;
+    height: 8vh;
+}
+
+.local-nav-Stark{
+    background-color: #555b63;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 8vh;
+}
+.local-nav-Tar{
+    background-color: #d3612d;
+    color: rgb(99, 99, 99);
+    width: 100%;
+    height: 8vh;
+}
+.local-nav-G{
+    background-color: #3b6166;
+    color: rgb(43, 43, 43);
+    width: 100%;
+    height: 8vh;
+}
+.local-nav-M{
+    background-color: #ca932d;
+    color: rgb(136, 57, 43);
+    width: 100%;
+    height: 8vh;
+}
+.local-nav-A{
+    background-color: #2d2874;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 8vh;
+}
+.local-nav-B{
+    background-color: #e0ac00;
+    color: rgb(43, 43, 43);
+    width: 100%;
+    height: 8vh;
+}
+.local-nav-Tu{
+    background-color: #060770;
+    color: rgb(148, 0, 0);
+    width: 100%;
+    height: 8vh;
+}
+.local-nav-Ty{
+    background-color: #53945c;
+    color: rgb(145, 119, 63);
+    width: 100%;
+    height: 8vh;
+}
+
+
+
+
+
+
+.user-local-nav{
+    width: 6vh;
+    border-radius: 50%;
+}
+
+.banner-local-nav{
+    width: 20vh;
+    border-radius: 50%;
+}
+
+.mt-10{
+    margin-top: 100px;
+}
+
+.mt-5em{
+  margin-top: 5em;
+}
+
+.card-body{
+    color: #252525;
+}
+
+.comments{
+    background-color: rgba(0, 0, 0, 0.034);
+    border-radius: 10px;
+}
+
+.littlepicture{
+    width: 90%;
+    height: auto;
+}
+
+/* Post */
+.mt-2minus {
+  margin-top: -8em;
+}
+
+.mt-1minus {
+  margin-top: -0.5em;
+}
+
+.btn-gray {
+  background-color: #f7f7f9;
+}
+
+.btn-yellow {
+  background-color: #ffe44d;
+}
+
+.text-08{
+  font-size: 0.8em;
+}
+
+.picturepost{
+    width: 90%;
+}
+
+.littlefont2{
+    font-size: 12px;
+}

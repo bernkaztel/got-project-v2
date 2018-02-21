@@ -1,0 +1,105 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #707070;
+    font-family: 'Open Sans', sans-serif;
+    color: #252525;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Cinzel', serif;
+    color: white;
+}
+
+.modal-header{
+    background-color: #252525;
+}
+.nopadding{
+    padding: 0;
+    margin: 0;
+}
+
+.footer{
+    background-color: #252525;
+    color: white;
+}
+
+.map-image{
+    width: 100%;
+}
+
+.full{
+    background-color: aquamarine
+}
+
+.btn-dark{
+    background-color: #252525;
+    color: white;
+}
+
+.littlefont{
+    font-size: 2vh;
+}
+
+.bg-gray {
+  background-color: #252525;
+}
+
+/* FONT SIZE FOOTER */
+.fs {
+  font-size: 0.7em;
+}
+
+/* HOUSES */
+.row-overlay {
+  position: absolute;
+  top: 0;
+  left:0;
+  z-index:1;
+  bottom:0;
+  right:0;
+}
+
+.mt-stark {
+  margin-top: 10vh;
+}
+
+.mt-tully {
+  margin-top: 30vh;
+}
+
+.mt-arryn {
+  margin-top: 38vh;
+}
+
+.mt-greyjoy{
+  margin-top: 43vh;
+}
+
+.mt-lannister{
+  margin-top: 51vh;
+}
+
+.mt-baratheon{
+  margin-top: 55vh;
+}
+
+.mt-targaryen{
+  margin-top: 56vh;
+}
+
+.mt-tyrell{
+  margin-top: 69vh;
+}
+
+.mt-martell{
+  margin-top: 70vh;
+}
+.w-20 {
+  width: 12vh;
+}
+
+
+.littlehouse{
+  width: 25vh;;
+}

@@ -1,0 +1,33 @@
+.user{
+    width: 30vh;
+    height: 30vh;
+}
+
+.icon-input{
+    font-size: 10px;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+.icon-background{
+    background-color: #252525;
+    width: 35px;
+    position: relative;
+}
+
+.input-group-log{
+    width: 100%;
+}
+
+.fs-forgot-password{
+  font-size: 0.8em;
+}
+
+.mt-minus2{
+  margin-top: -2em;
+}
+
+.w-60{
+  width: 60%;
+}

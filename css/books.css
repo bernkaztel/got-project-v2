@@ -1,0 +1,11 @@
+.book{
+    width: 20vh;
+}
+
+.card-header{
+	background-color: #464646;
+}
+
+.card-image{
+	padding:15px;
+}

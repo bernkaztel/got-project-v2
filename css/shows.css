@@ -1,0 +1,18 @@
+ul, ol, li {
+    list-style: none;
+  }
+
+  #accordion1 li.panel{
+      margin-bottom: 0px;
+  }
+
+  #title-tvShow{
+  	font-family:"Cinzel", serif !important;
+  	color:white;
+  	font-size: 1.2em;
+  }
+
+
+  .card-header{
+  	background-color: #464646;
+  }

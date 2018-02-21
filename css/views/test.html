@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <link rel="shortcut icon" type="image/png" href="../../assets/icon/raven.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <link href="../style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../test.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Barra de navegación -->
+  <nav class="navbar navbar-toggleable-md navbar navbar-dark bg-dark bg-faded p-2 bg-gray">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a href="#" class="text-white"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        </button>
+        <a class="navbar-brand" href="../../index.html">
+            <img src="../../assets/images/got-logo.png" alt="Got logo" height="30">
+        </a>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="../../index.html">Map</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="houses.html">Houses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="characters.html">Characters</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="books.html">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="shows.html">Tv-Shows</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
+                <a class="text-white" href="log-in.html">
+                    <i class="fa fa-user-circle"></i>
+                    Log-In</a>
+            </span>
+        </div>
+    </nav>
+    <!-- Termina barra de navegación -->
+
+
+
+
+    <!-- Comienza contenido gral -->
+    <div class="container">
+        <h4 class=" mt-2 mb-2 text-center text-uppercase">¡Take the test to find out which house you belong to!</h4>
+        <img src="../../assets/images/Arryn.png" class="user2 d-block mx-auto mt-4 mb-4" id="userImage" alt="">
+        <div class="row">
+            <div class="col mt-4 mb-4">
+
+
+                <p class=" font-weight-bold">You consider that your best attribute is:</p>
+                <p>
+                        <form id="myForm">
+                    <p>
+                        <input type="radio" name="attribute" value="1" /> Being honest.
+                    </p>
+                    <p>
+                        <input type="radio" name="attribute" value="2" /> I'm ambitious.
+                    </p>
+                    <p>
+                        <input type="radio" name="attribute" value="3" /> I'm handy/ my hardwork.
+                    </p>
+                    <p>
+                        <input type="radio" name="attribute" value="4" /> I'm good with the money.
+                    </p>
+                    <p>
+                        <input type="radio" name="attribute" value="5" /> Being damn smart.
+                    </p>
+                    <p>
+                        <input type="radio" name="attribute" value="6" /> Being cunning.
+                    </p>
+                    <p>
+                        <input type="radio" name="attribute" value="7" /> I'm crazy.
+                    </p>
+                    <p>
+                        <input type="radio" name="attribute" value="8" /> I get mad all the time. 
+                    </p>
+                    <p>
+                        <input type="radio" name="attribute" value="9" /> I'm a pacifist.  
+                    </p>
+                       </form>
+
+                        <p class=" font-weight-bold">When someone betrays you:</p>
+                        <form id="myForm">
+                        <p>
+                                
+                            <p>
+                                <input type="radio" name="betrays" value="4" /> I already betray them first.
+                            </p>
+                            <p>
+                                <input type="radio" name="betrays" value="2" /> I don't care about the reasons; I'm mad.
+                            </p>
+                            <p>
+                                <input type="radio" name="betrays" value="1" /> It's not fair but I can understand.
+                            </p>
+                            <p>
+                                <input type="radio" name="betrays" value="3" /> I'll kill anyone who betrays me.
+                            </p>
+                            <p>
+                                <input type="radio" name="betrays" value="5" /> I saw that comming and took precautions.
+                            </p>
+                            <p>
+                                <input type="radio" name="betrays" value="6" /> I buy an army to take their lands.
+                            </p>
+                            <p>
+                                <input type="radio" name="betrays" value="7" /> I stay in my castle. 
+                            </p>
+                            <p>
+                                <input type="radio" name="betrays" value="8" /> I race and army to take their throne. 
+                            </p>
+                            <p>
+                                <input type="radio" name="betrays" value="9" /> I cry. 
+                            </p>
+                        
+                        </p>
+                    </form>
+                        <p class=" font-weight-bold">The key for being a great leader is:</p>
+                        <form id="myForm">
+                        <p>
+                            <p>
+                                <input type="radio" name="leader" value="1" /> Being fair.
+                            </p>
+                            <p>
+                                <input type="radio" name="leader" value="2" /> Having the right of birth to be one.
+                            </p>
+                            <p>
+                                <input type="radio" name="leader" value="3" /> Being ruthless.
+                            </p>
+                            <p>
+                                <input type="radio" name="leader" value="4" /> Money, lots of money.
+                            </p>
+                            <p>
+                                <input type="radio" name="leader" value="5" /> Being the smart and progressive.
+                            </p>
+                            <p>
+                                <input type="radio" name="leader" value="6" /> Having strategic alliances.
+                            </p>
+                            <p>
+                                <input type="radio" name="leader" value="7" /> Staying in my castle.
+                            </p>
+                            <p>
+                                <input type="radio" name="leader" value="8" /> Taking advantage of the situation.
+                            </p>
+                            <p>
+                                <input type="radio" name="leader" value="9" /> Talking and keeping things civil. 
+                            </p>
+                        </p>
+                    </form>
+                        <p class=" font-weight-bold">Which song you'd like to send to your crush?:</p>
+                        <form id="myForm">
+                        <p>
+
+                            <p>
+                                <input type="radio" name="song" value="1" /> Bruno Mars - Just the way you are.
+                            </p>
+                            <p>
+                                <input type="radio" name="song" value="2" /> Daft Punk - Something about us.
+                            </p>
+                            <p>
+                                <input type="radio" name="song" value="3" /> Nick Cave & The Bad Seeds - Loverman.
+                            </p>
+                            <p>
+                                <input type="radio" name="song" value="4" /> Franz Ferdinand - Cheating on You.
+                            </p>
+                            <p>
+                                <input type="radio" name="song" value="5" /> Frank Sinatra - Can´t take my eyes off you.
+                            </p>
+                            <p>
+                                <input type="radio" name="song" value="6" /> Taylor Swift - Shake it off. 
+                            </p>
+                            <p>
+                                <input type="radio" name="song" value="7" /> Lady Gaga - Bad Romance. 
+                            </p>
+                            <p>
+                                <input type="radio" name="song" value="8" /> Kings of Lion - Sex on Fire.
+                            </p>
+                            <p>
+                                <input type="radio" name="song" value="9" /> Witney Houston - I will always love you. 
+                            </p>
+                        </p>
+                    </form>
+                        <p class=" font-weight-bold">Choose a profesion:</p>
+                        <p>
+                                <form id="myForm">
+                            <p>
+                                <input type="radio" name="profesion" value="1" /> Judge.
+                            </p>
+                            <p>
+                                <input type="radio" name="profesion" value="2" /> Detective.
+                            </p>
+                            <p>
+                                <input type="radio" name="profesion" value="3" /> Engineer.
+                            </p>
+                            <p>
+                                <input type="radio" name="profesion" value="4" /> Banker.
+                            </p>
+                            <p>
+                                <input type="radio" name="profesion" value="5" /> Philosopher.
+                            </p>
+                            <p>
+                                <input type="radio" name="profesion" value="6" /> Farmer.  
+                            </p>
+                            <p>
+                                <input type="radio" name="profesion" value="7" /> Zoologist.
+                            </p>
+                            <p>
+                                <input type="radio" name="profesion" value="8" /> Hunter.
+                            </p>
+                            <p>
+                                <input type="radio" name="profesion" value="9" /> Poet.
+                            </p>
+                        </p>
+
+                        <button type="button" class="btn btn-dark mt-5" onclick="results()">Find out!</button>
+            </div>
+        </div>
+    </div>
+    <!-- Termina contenido gral -->
+
+    <!-- Contenedor de modales -->
+    <!--Modal template Strak-->
+<div id="myModalStark" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+
+              <h3 id="modaltitle" class="d-block mx-auto">House Stark of Winterfell</h3>
+            </div>
+            <div class="modal-body mx-auto">
+              <img id="imagemodal" src="../../assets/images/Stark.png" class=" img-responsive d-block mx-auto modal-img" alt="">
+              <div class="d-block mx-auto">
+                <span id="word" class=" font-italic"></span>
+              </div>
+              <div class="d-block mx-auto">
+                <span id="region" class=" font-italic">You are: </span>
+                <span class="font-weight-bold">STARK</span>
+              </div>
+              <div class="d-block mx-auto mt-2">
+                <p id="description" class="d-block mx-auto littlefont description-modal">Winter is Coming</p>
+              </div>
+              <button type="button" class="btn btn-default d-block mx-auto btn-dark" data-dismiss="modal" onclick="redirect()">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Modal template Targaryen-->
+<div id="myModalTargaryen" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 id="modaltitle" class="d-block mx-auto">House Targaryen of King's Landing</h3>
+            </div>
+            <div class="modal-body mx-auto">
+              <img id="imagemodal" src="../../assets/images/Targaryen.png" class=" img-responsive d-block mx-auto modal-img" alt="Targaryen">
+              <div class="d-block mx-auto">
+                <span id="word" class=" font-italic"></span>
+              </div>
+              <div class="d-block mx-auto">
+                <span id="region" class=" font-italic">You are: </span>
+                <span class="font-weight-bold">Targaryen</span>
+              </div>
+              <div class="d-block mx-auto mt-2">
+                <p id="description" class="d-block mx-auto littlefont description-modal">Fire and Blood</p>
+              </div>
+              <button type="button" class="btn btn-default d-block mx-auto btn-dark" data-dismiss="modal" onclick="redirect()">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Modal template Baretheon-->
+<div id="myModalBaretheon" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 id="modaltitle" class="d-block mx-auto">House Baratheon of King's Landing</h3>
+            </div>
+            <div class="modal-body mx-auto">
+              <img id="imagemodal" src="../../assets/images/Baratheon.png" class=" img-responsive d-block mx-auto modal-img" alt="">
+              <div class="d-block mx-auto">
+                <span id="word" class=" font-italic"></span>
+              </div>
+              <div class="d-block mx-auto">
+                <span id="region" class=" font-italic">You are: </span>
+                <span class="font-weight-bold">Baratheon</span>
+              </div>
+              <div class="d-block mx-auto mt-2">
+                <p id="description" class="d-block mx-auto littlefont description-modal">Ours is the Fury</p>
+              </div>
+              <button type="button" class="btn btn-default d-block mx-auto btn-dark" data-dismiss="modal" onclick="redirect()">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Modal template Tyrell-->
+<div id="myModalTyrell" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 id="modaltitle" class="d-block mx-auto">House Tyrell of Highgarden</h3>
+            </div>
+            <div class="modal-body mx-auto">
+              <img id="imagemodal" src="../../assets/images/Tyrell.png" class=" img-responsive d-block mx-auto modal-img" alt="">
+              <div class="d-block mx-auto">
+                <span id="word" class=" font-italic"></span>
+              </div>
+              <div class="d-block mx-auto">
+                <span id="region" class=" font-italic">You are: </span>
+                <span class="font-weight-bold">Tyrell</span>
+              </div>
+              <div class="d-block mx-auto mt-2">
+                <p id="description" class="d-block mx-auto littlefont description-modal">Growing strong</p>
+              </div>
+              <button type="button" class="btn btn-default d-block mx-auto btn-dark" data-dismiss="modal" onclick="redirect()">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Modal template Lannister-->
+<div id="myModalLannister" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 id="modaltitle" class="d-block mx-auto">House Lannister of Casterly Rock</h3>
+        </div>
+        <div class="modal-body mx-auto">
+          <img id="imagemodal" src="../../assets/images/Lannister.png" class=" img-responsive d-block mx-auto modal-img" alt="">
+          <div class="d-block mx-auto">
+            <span id="word" class=" font-italic"></span>
+          </div>
+          <div class="d-block mx-auto">
+            <span id="region" class=" font-italic">You are: </span>
+            <span class="font-weight-bold">Lannister</span>
+          </div>
+          <div class="d-block mx-auto mt-2">
+            <p id="description" class="d-block mx-auto littlefont description-modal">Growing strong</p>
+          </div>
+          <button type="button" class="btn btn-default d-block mx-auto btn-dark" data-dismiss="modal" onclick="redirect()">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        <!--Modal template Lannister-->
+<div id="myModalGreyjoy" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 id="modaltitle" class="d-block mx-auto">House Greyjoy of the Twins</h3>
+        </div>
+        <div class="modal-body mx-auto">
+          <img id="imagemodal" src="../../assets/images/Greyjoy.png" class=" img-responsive d-block mx-auto modal-img" alt="">
+          <div class="d-block mx-auto">
+            <span id="word" class=" font-italic"></span>
+          </div>
+          <div class="d-block mx-auto">
+            <span id="region" class=" font-italic">You are: </span>
+            <span class="font-weight-bold">Greyjoy</span>
+          </div>
+          <div class="d-block mx-auto mt-2">
+            <p id="description" class="d-block mx-auto littlefont description-modal">We do not sow</p>
+          </div>
+          <button type="button" class="btn btn-default d-block mx-auto btn-dark" data-dismiss="modal" onclick="redirect()">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        <!--Modal template Lannister-->
+<div id="myModalMartell" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 id="modaltitle" class="d-block mx-auto">House Martell of Sunspear</h3>
+        </div>
+        <div class="modal-body mx-auto">
+          <img id="imagemodal" src="../../assets/images/Martell.png" class=" img-responsive d-block mx-auto modal-img" alt="">
+          <div class="d-block mx-auto">
+            <span id="word" class=" font-italic"></span>
+          </div>
+          <div class="d-block mx-auto">
+            <span id="region" class=" font-italic">You are: </span>
+            <span class="font-weight-bold">Martell</span>
+          </div>
+          <div class="d-block mx-auto mt-2">
+            <p id="description" class="d-block mx-auto littlefont description-modal">Unbowed, Unbent & Unbroken</p>
+          </div>
+          <button type="button" class="btn btn-default d-block mx-auto btn-dark" data-dismiss="modal" onclick="redirect()">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!--Modal template Arryn-->
+<div id="myModalArryn" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3 id="modaltitle" class="d-block mx-auto">House Arryn of the Eyrie</h3>
+            </div>
+            <div class="modal-body mx-auto">
+              <img id="imagemodal" src="../../assets/images/Arryn.png" class=" img-responsive d-block mx-auto modal-img" alt="">
+              <div class="d-block mx-auto">
+                <span id="word" class=" font-italic"></span>
+              </div>
+              <div class="d-block mx-auto">
+                <span id="region" class=" font-italic">You are: </span>
+                <span class="font-weight-bold">Arryn</span>
+              </div>
+              <div class="d-block mx-auto mt-2">
+                <p id="description" class="d-block mx-auto littlefont description-modal">As High as Honor</p>
+              </div>
+              <button type="button" class="btn btn-default d-block mx-auto btn-dark" data-dismiss="modal" onclick="redirect()">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+          <!--Modal template Arryn-->
+<div id="myModalTully" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3 id="modaltitle" class="d-block mx-auto">House Tully of Riverrun</h3>
+        </div>
+        <div class="modal-body mx-auto">
+          <img id="imagemodal" src="../../assets/images/Tully.png" class=" img-responsive d-block mx-auto modal-img" alt="">
+          <div class="d-block mx-auto">
+            <span id="word" class=" font-italic"></span>
+          </div>
+          <div class="d-block mx-auto">
+            <span id="region" class=" font-italic">You are: </span>
+            <span class="font-weight-bold">Tully</span>
+          </div>
+          <div class="d-block mx-auto mt-2">
+            <p id="description" class="d-block mx-auto littlefont description-modal">Family, Duty & Honor</p>
+          </div>
+          <button type="button" class="btn btn-default d-block mx-auto btn-dark" data-dismiss="modal" onclick="redirect()">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!-- Comienza footer -->
+ <div class="container-fluid footer w-100">
+        <div class="row">
+            <div class="col text-center mt-2">
+                <img src="../../assets/images/got-logo.png" alt="Got logo" height="23">
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col"></div>
+            <div class="col-3">
+                <span class="font-weight-bold d-block text-left mb-1 fs">MENU</span>
+                <a href="../../index.html" class="d-block text-left text-white mb-1 fs">Map</a>
+                <a href="houses.html" class="d-block text-left mb-1 text-white fs">Houses</a>
+                <a href="characters.html" class="d-block text-left mb-1 text-white fs">Characters</a>
+                <a href="shows.html" class="d-block text-left mb-1 text-white fs">Tv-Shows</a>
+                <a href="books.html" class="d-block text-left mb-1 text-white fs">Books</a>
+                <a href="#" class="d-block text-left mb-1 text-white fs">Search</a>
+            </div>
+            <div class="col-3">
+                <span class="font-weight-bold d-block text-left mb-1 fs">US</span>
+                <a href="#" class="d-block text-left mb-1 text-white fs">About us</a>
+                <a href="#" class="d-block text-left mb-1 text-white fs">Contact us</a>
+                <a href="#" class="d-block text-left mb-1 text-white fs">FAQ</a>
+            </div>
+            <div class="col-3">
+                <span class="font-weight-bold d-block text-left mb-1 fs">BE IN TOUCH</span>
+                <a href="#" class="d-block text-left mb-1 text-white">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+                <a href="#" class="d-block text-left mb-1 text-white">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="#" class="d-block text-left mb-1 text-white">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+    <!-- Termina Footer -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+    <script src="../../js/app.js" charset="utf-8"></script>
+    <script src="../../js/test.js"></script>
+</body>
+
+</html>

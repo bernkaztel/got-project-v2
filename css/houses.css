@@ -1,0 +1,18 @@
+.house-image{
+    width: 28vh;
+    border-radius: 50%;
+}
+
+
+.description-modal{
+    text-align: justify;
+}
+
+.modal-img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.banner-img-modal{
+    width: 20%;
+}
