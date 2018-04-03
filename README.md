@@ -14,9 +14,11 @@ Buscamos crear una aplicación móvil que permita a los usuarios obtener toda la
   
   ## Vista previa
   
-
+###Vista de Home & Houses
 ![Vista de Home & Houses](assets/images/got11.png)
+###Vista de Characters & Social Network Log-in
 ![Vista de Characters & Social Network Log-in](assets/images/got111.png)
+###Vista de test & Social Network Home
 ![Vista de test & Social Network Home](assets/images/got1111.png)
 
 
