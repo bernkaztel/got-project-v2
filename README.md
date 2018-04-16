@@ -15,7 +15,7 @@ Buscamos crear una aplicación móvil que permita a los usuarios obtener toda la
   ## Vista previa
   
 ### Vista de Home & Houses
-![Imagen del sitio](https://github.com/bernkaztel/got-project-v2/blob/master/assets/images/got11.png)
+![Imagen del sitio](https://raw.githubusercontent.com/bernkaztel/got-project-v2/master/assets/images/got11.png)
 ### Vista de Characters & Social Network Log-in
 ![Vista de Characters & Social Network Log-in](https://github.com/bernkaztel/got-project-v2/blob/master/assets/images/got111.png)
 ### Vista de test & Social Network Home
