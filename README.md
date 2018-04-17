@@ -13,6 +13,8 @@ Buscamos crear una aplicación móvil que permita a los usuarios obtener toda la
   - Visitar newsfeed donde podrás observar tus publicaciones y las de tus amigos.
   
   ## Vista previa
+  ![Imagen del sitio](https://raw.githubusercontent.com/bernkaztel/got-project-v2/master/assets/images/vista.png)
+  
   
 ### Vista de Home & Houses
 ![Imagen del sitio](https://raw.githubusercontent.com/bernkaztel/got-project-v2/master/assets/images/got11.png)
