@@ -1,4 +1,4 @@
-# GAME OF THRONES APP
+# Game of Thrones-App
 ## Descripción
 
 Buscamos crear una aplicación móvil que permita a los usuarios obtener toda la información sobre Game of Thrones. Dentro de ella se encuentran las siguientes funciones:
